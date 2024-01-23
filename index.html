@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping</title>
+</head>
+<body>
+    <script>
+        // SATU SAMPAI 10
+        // for
+        for(let g = 10; g > 0 ; g--) {
+            console.log ('data ke -', g)
+        }
+        
+        // SESUATU SAMPAI 10
+        for (let d = 1; d <= 10 ; d ++) {
+            console.log ('sesuatu', d)
+        }
+
+        // while
+        let f = 1
+        while(f <=10) {
+            console.log ('data x ke -', f)
+            f++
+        }
+
+        // Do while
+        let y = 1
+        do {
+            console.log('data y ke-', y)
+            y++
+        } while (y <= 10)
+        
+
+        // ANGKA GANJIL
+        // FOR
+        for (let a = 1; a <= 10; a++) {
+            if (a % 2 !== 0) {
+                console.log ('ganjil', a)
+            }   
+        }
+
+        // WHILE
+        let z = 1
+        while(z <= 10) {
+            if (z % 2 !== 0) {
+                console.log ('ganjil', z)
+            } z++
+        }
+
+        // DO WHILE
+        let i = 1
+        do {
+            if (i % 2 !== 0) {
+            console.log ('ganjil', i);
+            }
+            i++   
+        } while (i <= 10)
+
+        // GANJIL DAN GENAP
+        // FOR
+        for (let u = 1; u <= 10; u++) {
+            if (u % 2 !== 0) {
+                console.log ('ganjil', u)
+            }   
+            else {console.log('genap', u)}
+        }
+
+           // WHILE
+        let k = 1
+        while(k <= 10) {
+            if (k % 2 !== 0) {
+                console.log ('ganjil', k)
+            } 
+            else {console.log ('genap', k)}
+            k++
+        }
+
+        // DO WHILE
+        let s = 1
+        do {
+            if (s % 2 !== 0) {
+            console.log ('ganjil', s);
+            }
+            else {console.log('genap', s)}
+            s++   
+        } while (s <= 10)
+
+        // PERKALIAN
+        // FOR
+        let hasilperkalian = 1;
+        for (let n = 1; n <= 5; n++) {
+            hasilperkalian *= n;
+        }
+        console.log('hasil faktorialnya adalah', hasilperkalian)
+
+        //  WHILE
+        let hasilPerkalian = 1;
+        let n1 = 1;
+
+        while (n1 <= 5) {hasilPerkalian *= n1;
+        n1++;
+        }
+        console.log("Hasil perkaliannya adalah", hasilPerkalian);
+
+        // DO WHILE
+        let hasil_Perkalian = 1;
+        let nn = 1;
+
+        do {
+        hasil_Perkalian *= nn;
+        nn++;
+        } while (nn <= 5);
+
+        console.log("Perkaliannya:", hasil_Perkalian);
+
+    </script>
+</body>
+</html>
